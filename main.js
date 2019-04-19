@@ -29,7 +29,7 @@ glob('**/*.{jpeg,jpg,png,gif,svg,JPEG,JPG,PNG,GIF,SVG}', function (er, files) {
                     })
                 ]
             }).then(files => {
-                console.log('压缩成功 ' + files[0].path);
+                console.log('压缩成功/SuccessfulCompression: ' + files[0].path);
                 // => [{data: <Buffer 89 50 4e …>, path: 'build/images/foo.jpg'}, …]
             });
         }
