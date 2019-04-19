@@ -34,10 +34,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/globalwow888/batch-compress-images.git"
+    "url": "git+https://github.com/globaldarcy/batch-compress-images.git"
   },
   "bugs": {
-    "url": "https://github.com/globalwow888/batch-compress-images/issues"
+    "url": "https://github.com/globaldarcy/batch-compress-images/issues"
   },
-  "homepage": "https://github.com/globalwow888/batch-compress-images#readme"
+  "homepage": "https://github.com/globaldarcy/batch-compress-images#readme"
 }

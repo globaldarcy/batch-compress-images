@@ -33,4 +33,4 @@ $ npm start
 
 ## 许可证/License
 
-MIT © [batch-compress-images](https://github.com/globalwow888/batch-compress-images)
+MIT
