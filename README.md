@@ -1,4 +1,4 @@
-# batch-compress-images
+# 批量压缩图像/batch-compress-images
 
 > 用于批量压缩图像的工具，类似于在线压缩图像的一些工具。 它更方便，更快捷，适合开发人员使用。
 
