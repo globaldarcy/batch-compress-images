@@ -1,43 +1,44 @@
 {
-  "name": "batch-compress-images",
-  "version": "1.0.0",
-  "description": "A tool for compressing images in batches, similar to some tools for compressing images online. It is more convenient and faster, suitable for developers.",
-  "engines": {
-    "node": ">= 10.0.0",
-    "npm": ">= 6.0.0"
-  },
-  "main": "main.js",
-  "scripts": {
-    "start": "node main.js"
-  },
-  "keywords": [
-    "compress",
-    "batch",
-    "image",
-    "images",
-    "imageminplugin",
-    "img",
-    "minify",
-    "optimize"
-  ],
-  "dependencies": {
-    "glob": "^7.1.3",
-    "imagemin": "^6.1.0",
-    "imagemin-gifsicle": "^6.0.1",
-    "imagemin-mozjpeg": "^8.0.0",
-    "imagemin-pngquant": "^7.0.0",
-    "imagemin-svgo": "^7.0.0",
-    "path": "^0.12.7"
-  },
-  "author": "Darcy, Turgenev",
-  "license": "MIT",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/globaldarcy/batch-compress-images.git"
-  },
-  "bugs": {
-    "url": "https://github.com/globaldarcy/batch-compress-images/issues"
-  },
-  "homepage": "https://github.com/globaldarcy/batch-compress-images#readme"
+    "name": "batch-compress-images",
+    "version": "1.1.0",
+    "description": "A tool for compressing images in batches, similar to some tools for compressing images online. It is more convenient and faster, suitable for developers.",
+    "engines": {
+        "node": ">= 10.0.0",
+        "npm": ">= 6.0.0"
+    },
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "keywords": [
+        "compress",
+        "batch",
+        "image",
+        "images",
+        "imageminplugin",
+        "img",
+        "minify",
+        "optimize"
+    ],
+    "dependencies": {
+        "globby": "^11.0.1",
+        "imagemin": "^7.0.1",
+        "imagemin-gifsicle": "^7.0.0",
+        "imagemin-mozjpeg": "^9.0.0",
+        "imagemin-optipng": "^8.0.0",
+        "imagemin-pngquant": "^9.0.0",
+        "imagemin-svgo": "^8.0.0",
+        "path": "^0.12.7"
+    },
+    "author": "Darcy, Turgenev",
+    "license": "MIT",
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/globaldarcy/batch-compress-images.git"
+    },
+    "bugs": {
+        "url": "https://github.com/globaldarcy/batch-compress-images/issues"
+    },
+    "homepage": "https://github.com/globaldarcy/batch-compress-images#readme"
 }
