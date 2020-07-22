@@ -8,8 +8,7 @@
     },
     "main": "main.js",
     "scripts": {
-        "start": "node main.js",
-        "webp": "node webp.js"
+        "start": "node main.js"
     },
     "keywords": [
         "compress",
@@ -29,7 +28,6 @@
         "imagemin-optipng": "^8.0.0",
         "imagemin-pngquant": "^9.0.0",
         "imagemin-svgo": "^8.0.0",
-        "imagemin-webp": "^6.0.0",
         "path": "^0.12.7"
     },
     "author": "Darcy, Turgenev",
