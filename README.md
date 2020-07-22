@@ -1,6 +1,12 @@
 # 批量压缩图像/batch-compress-images
 
-Jpeg 图片压缩参数进行调整，提高了压缩图片的速度。
+`Jpeg` 图片压缩参数进行调整，提高了压缩图片的速度。
+
+新增 Webp 格式。将 `jpg,png` 转换成 `webp`。 执行 `npm run webp` 将导出 webp 格式的图片。
+
+```bash
+$ npm run webp
+```
 
 > 用于批量压缩图像的工具，类似于在线压缩图像的一些工具。 它更方便，更快捷，适合开发人员使用。
 
@@ -15,7 +21,7 @@ Support image format: jpg, png, svg
 
 Clone to local
 
-```
+```bash
 $ npm install
 ```
 
@@ -29,7 +35,7 @@ demo 4.6MB, 压缩后为 749KB
 
 demo 4.6MB, 749KB after compression
 
-```
+```bash
 $ npm start
 ```
 
